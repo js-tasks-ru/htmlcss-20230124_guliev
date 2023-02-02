@@ -1,8 +1,9 @@
 @import '../fonts/fonts.css';
 @import url('./normalize.css');
+@import url('../../components/container/container.css');
 @import url('../../components/page/page.css');
 @import url('../../components/header/header.css');
-@import url('../../components/main/main.css');
+@import url('../../components/preview/preview.css');
 @import url('../../components/footer/footer.css');
 
 :root {
@@ -24,6 +25,6 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }

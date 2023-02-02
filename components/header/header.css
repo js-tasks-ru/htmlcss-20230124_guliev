@@ -1,5 +1,6 @@
 .header {
-    padding: 96px 0 77px 160px;
+    background: #fff;
+    padding: 96px 0 77px;
 }
 
 .header__title {
