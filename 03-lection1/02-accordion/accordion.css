@@ -1,1 +1,42 @@
 /* Стилизация аккордеона */
+.accordion {
+    width: 730px;
+    height: 144px;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 24px 32px;
+}
+
+/* Почему то не срабатывает не marker не webkit */
+
+.accordion__summary::marker {
+    display: none !important;
+}
+
+.accordion__summary::-webkit-details-marker {
+    /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
+.accordion__summary {
+    color: #212429;
+}
+
+.accordion__content {
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+.accordion__content:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__arrow {
+    float: right;
+}
