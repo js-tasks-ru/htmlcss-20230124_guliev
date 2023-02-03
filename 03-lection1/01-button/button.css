@@ -14,46 +14,44 @@ button {
     text-align: center;
 }
 
-.primary {
+.button_primary {
     background: #4263EB;
 }
 
-.primary:hover {
+.button_primary:hover {
     background: #2342C0;
 }
 
-.primary:disabled {
+.button_primary:disabled {
     background: #2342C0;
     opacity: 0.5;
 }
 
-.secondary {
+.button_secondary {
     background: #7048E8;
 }
 
-.secondary:hover {
+.button_secondary:hover {
     background: #5028C6;
 }
 
-.secondary:disabled {
+.button_secondary:disabled {
     background: #5028C6;
     opacity: 0.5;
 }
 
-.alternate {
+.button_alternate {
+    color: black;
     background: #fff;
     border: 1px solid #ACB5BD;
 }
 
-.alternate__title {
-    color: black;
-}
-
-.alternate:hover {
+.button_alternate:hover {
     border: 1px solid #212429;
 }
 
-.alternate:disabled {
+.button_alternate:disabled {
+    pointer-events: none;
     opacity: 0.5;
 }
 
