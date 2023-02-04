@@ -1,9 +1,10 @@
 /* Стилизация кнопки */
 
-button {
-    width: 189px;
+.button {
+    min-width: 189px;
     height: 48px;
     border: none;
+    padding: 15px 0 14px;
     border-radius: 8px;
     font-family: 'Roboto';
     font-style: normal;
@@ -23,7 +24,7 @@ button {
 }
 
 .button_primary:disabled {
-    background: #2342C0;
+    pointer-events: none;
     opacity: 0.5;
 }
 
@@ -36,7 +37,7 @@ button {
 }
 
 .button_secondary:disabled {
-    background: #5028C6;
+    pointer-events: none;
     opacity: 0.5;
 }
 
