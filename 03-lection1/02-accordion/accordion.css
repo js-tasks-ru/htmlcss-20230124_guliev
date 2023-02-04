@@ -1,13 +1,11 @@
 /* Стилизация аккордеона */
 
-summary {
-    list-style: none;
-}
 
-.accordion {
+.accordion__item {
     max-width: 730px;
     background: #FFFFFF;
     border: 1px solid #ACB5BD;
+    margin-bottom: 8px;
     border-radius: 8px;
     font-family: 'Inter';
     font-style: normal;
@@ -15,11 +13,14 @@ summary {
     font-size: 16px;
     line-height: 24px;
     padding: 24px 32px;
-    margin-bottom: 8px;
 }
 
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0px;
+}
+
+.accordion__summary {
+    list-style: none;
 }
 
 .accordion__summary::marker {
@@ -36,7 +37,6 @@ summary {
 }
 
 .accordion__content {
-    margin-bottom: 8px;
     color: #495057;
 }
 
@@ -45,5 +45,5 @@ summary {
 }
 
 .accordion__arrow {
-    float: right;
+    display: none;
 }
