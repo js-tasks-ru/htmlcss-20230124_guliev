@@ -1,9 +1,9 @@
 /* Стилизация кнопки */
-@import url('../../assets/css/main.css');
 
 .button {
+    width: 100%;
+    padding: 15px 15px 15px 14px;
     border: none;
-    padding: 15px 0 14px;
     border-radius: 8px;
     font-family: 'Roboto';
     font-style: normal;
@@ -12,11 +12,6 @@
     line-height: 19px;
     color: var(--white);
     text-align: center;
-}
-
-.card__button {
-    width: 189px;
-    margin-right: 24px;
 }
 
 .button_primary {
@@ -54,9 +49,3 @@
 .button_alternate:hover {
     border: 1px solid var(--black);
 }
-
-.button_alternate:disabled {
-    pointer-events: none;
-    opacity: 0.5;
-}
-
