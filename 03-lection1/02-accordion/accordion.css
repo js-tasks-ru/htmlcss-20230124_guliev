@@ -1,9 +1,5 @@
 /* Стилизация аккордеона */
 
-.accordion {
-    width: 730px;
-}
-
 .accordion__item {
     background: var(--white);
     border: 1px solid var(--grey-3);
