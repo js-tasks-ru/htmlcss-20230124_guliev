@@ -1,6 +1,6 @@
 .histogram {
     width: 100%;
-    font-size: calc(16px * (100vw / 1100));
+    font-size: 2vw;
     margin-top: 20px;
     padding: 16px 24px;
     display: flex;
