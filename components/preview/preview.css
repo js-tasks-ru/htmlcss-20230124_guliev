@@ -3,3 +3,14 @@
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
 }
+
+.preview__flex {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 68px;
+    margin-bottom: 30px;
+}
