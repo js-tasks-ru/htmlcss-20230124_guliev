@@ -33,6 +33,7 @@
     height: 50px;
     display: inline-flex;
     align-items: flex-end;
+    justify-content: center;
     gap: 1px;
     box-sizing: border-box;
 }
