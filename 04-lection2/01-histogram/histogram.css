@@ -12,6 +12,9 @@
 .histogram__header {
     display: flex;
     justify-content: space-between;
+}
+
+.histogram__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -27,7 +30,7 @@
 }
 
 .histogram__content {
-    height: 50%;
+    height: 50px;
     display: inline-flex;
     align-items: flex-end;
     gap: 1px;
@@ -35,46 +38,47 @@
 }
 
 .histogram__element {
-    width: 20%;
+    flex-basis: 9px;
+    height: 50px;
     background: var(--blue-btn);
 }
 
 .histogram__element_10 {
-    height: 10px;
+    height: 10%;
 }
 
 .histogram__element_20 {
-    height: 20px;
+    height: 20%;
 }
 
 .histogram__element_30 {
-    height: 30px;
+    height: 30%;
 }
 
 .histogram__element_40 {
-    height: 40px;
+    height: 40%;
 }
 
 .histogram__element_50 {
-    height: 50px;
+    height: 50%;
 }
 
 .histogram__element_60 {
-    height: 60px;
+    height: 60%;
 }
 
 .histogram__element_70 {
-    height: 70px;
+    height: 70%;
 }
 
 .histogram__element_80 {
-    height: 80px;
+    height: 80%;
 }
 
 .histogram__element_90 {
-    height: 90px;
+    height: 90%;
 }
 
 .histogram__element_100 {
-    height: 100px;
+    height: 100%;
 }
