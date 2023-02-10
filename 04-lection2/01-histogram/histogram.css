@@ -31,7 +31,7 @@
 
 .histogram__content {
     height: 50px;
-    display: inline-flex;
+    display: flex;
     align-items: flex-end;
     justify-content: center;
     gap: 1px;
