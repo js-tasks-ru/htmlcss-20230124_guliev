@@ -23,7 +23,7 @@
     opacity: 0.8;
 }
 
-.histogram__link {
+.histogram__text_link {
     padding-top: 2px;
     color: var(--blue-btn);
     text-decoration: none;
@@ -33,14 +33,12 @@
     height: 50px;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
     gap: 1px;
     box-sizing: border-box;
 }
 
 .histogram__element {
     flex-basis: 9px;
-    height: 50px;
     background: var(--blue-btn);
 }
 
