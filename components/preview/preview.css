@@ -1,6 +1,13 @@
 .preview {
-    height: 1036px;
-    background: #F9FAFC;
-    border-top: 1px solid #DDE2E5;
-    border-bottom: 1px solid #DDE2E5;
+    padding: 68px 0 30px;
+    background: var(--white);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.preview__flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
