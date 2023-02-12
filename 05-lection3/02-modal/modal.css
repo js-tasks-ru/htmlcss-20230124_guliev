@@ -1,0 +1,81 @@
+.modal {
+    position: relative;
+}
+
+.modal__button {
+    padding: 15px 51px 14px;
+    background: var(--blue-btn);
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    list-style: none;
+    cursor: pointer;
+}
+
+.modal__button::marker {
+    display: none;
+}
+
+.modal__button::-webkit-details-marker {
+    /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
+.modal__title {
+    margin-bottom: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: var(--dark-blue);
+}
+
+.modal__block {
+    position: absolute;
+    padding: 30px 40px 33px;
+    background: var(--white);
+    border-radius: 8px;
+    z-index: 9;
+}
+
+.modal[close] .modal__button::before {
+    display: none;
+}
+
+.modal[open] .modal__button::before {
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: var(--white);
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.modal__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.modal__close {
+    cursor: pointer;
+    position: absolute;
+    right: 10.83%;
+    top: 5.83%;
+}
