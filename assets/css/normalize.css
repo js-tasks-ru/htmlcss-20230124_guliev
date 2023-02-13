@@ -282,6 +282,10 @@ progress {
    * Remove the default vertical scrollbar in IE 10+.
    */
 
+ul {
+    margin: 0;
+}
+
 textarea {
     overflow: auto;
 }
