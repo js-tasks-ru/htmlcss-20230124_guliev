@@ -17,7 +17,7 @@
     padding-bottom: 24px;
 }
 
-.calendar__months {
+.calendar__week-days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
@@ -30,7 +30,7 @@
     list-style-type: none;
 }
 
-.calendar__month {
+.calendar__week-day {
     text-align: center;
 }
 
