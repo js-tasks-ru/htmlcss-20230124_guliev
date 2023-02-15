@@ -2,6 +2,19 @@
     position: relative;
 }
 
+.modal::before {
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: var(--white);
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .modal__button {
     padding: 15px 51px 14px;
     background: var(--blue-btn);
@@ -50,7 +63,7 @@
     display: none;
 }
 
-.modal[open] .modal__button::before {
+.modal__block .modal::before {
     content: '';
     display: block;
     width: 100vw;
