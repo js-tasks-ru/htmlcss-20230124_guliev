@@ -1,0 +1,36 @@
+.links {
+    display: grid;
+    gap: 4px;
+    grid-area: links;
+}
+
+.links__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212429;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.link_active {
+    color: #D84910;
+}
+
+.link_main {
+    margin-top: 30px;
+}

@@ -6,6 +6,9 @@
 @import url('../../components/preview/preview.css');
 @import url('../../components/footer/footer.css');
 @import url('../../components/card/card.css');
+@import url('../../components/links/links.css');
+@import url('../../components/component/component.css');
+@import url('../../04-lection2/01-histogram/histogram.css');
 
 :root {
     --white: #ffffff;
