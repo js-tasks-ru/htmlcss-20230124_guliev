@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.footer_template {
+    padding: 71px;
+}
+
 .footer__title {
     margin-bottom: 32px;
 }
