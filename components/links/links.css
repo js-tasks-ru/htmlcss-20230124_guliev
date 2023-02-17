@@ -1,10 +1,10 @@
-.links {
+.menu {
     display: grid;
     gap: 4px;
     grid-area: links;
 }
 
-.links__title {
+.menu__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -14,7 +14,7 @@
     margin-bottom: 16px;
 }
 
-.link {
+.menu__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -27,10 +27,10 @@
     text-decoration: none;
 }
 
-.link_active {
+.menu__link_active {
     color: #D84910;
 }
 
-.link_main {
+.menu__link_main {
     margin-top: 30px;
 }
