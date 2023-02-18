@@ -11,3 +11,9 @@
 .footer__title {
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
