@@ -1,6 +1,9 @@
 .menu {
     display: grid;
     gap: 4px;
+}
+
+.menu_grid {
     grid-area: links;
 }
 
@@ -10,7 +13,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    color: #000000;
+    color: var(--black);
     margin-bottom: 16px;
 }
 
@@ -20,15 +23,14 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #212429;
-    flex: none;
+    color: var(--black);    
     order: 0;
     flex-grow: 0;
     text-decoration: none;
 }
 
 .menu__link_active {
-    color: #D84910;
+    color: var(--orange);
 }
 
 .menu__link_main {
