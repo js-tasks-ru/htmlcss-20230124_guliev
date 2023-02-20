@@ -1,29 +1,9 @@
-.modal::before {
+.modal {
     content: '';
-    display: block;
+    display: none;
     width: 100vw;
     height: 100vh;
     background: var(--white);
-    opacity: 0.5;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.modal__button {
-    padding: 15px 51px 14px;
-    background: var(--blue-btn);
-    border-radius: 8px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: var(--white);
-    list-style: none;
-    cursor: pointer;
 }
 
 .modal__title {
@@ -45,24 +25,6 @@
     border-radius: 8px;
     z-index: 9;
 }
-
-.modal[close] .modal__button::before {
-    display: none;
-}
-
-.modal__block .modal::before {
-    content: '';
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background: var(--white);
-    opacity: 0.5;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
 
 .modal__text {
     font-family: 'Inter';
