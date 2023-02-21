@@ -3,6 +3,10 @@
     display: inline-block;
 }
 
+.tooltip_card {
+    margin-top: 25%;
+}
+
 .tooltip__trigger {
     position: relative;
 }
