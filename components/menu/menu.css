@@ -1,0 +1,34 @@
+.menu {
+    display: grid;
+    gap: 4px;
+}
+
+.menu__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+    margin-bottom: 16px;
+}
+
+.menu__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);    
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.menu__link_active {
+    color: var(--orange);
+}
+
+.menu__link_main {
+    margin-top: 30px;
+}

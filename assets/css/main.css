@@ -6,6 +6,9 @@
 @import url('../../components/preview/preview.css');
 @import url('../../components/footer/footer.css');
 @import url('../../components/card/card.css');
+@import url('../../components/menu/menu.css');
+@import url('../../components/component/component.css');
+@import url('../../04-lection2/01-histogram/histogram.css');
 
 :root {
     --white: #ffffff;
@@ -25,6 +28,8 @@
     --blue-very-light: #A0B1F5;
     --blue-btn-hover: #2342C0;
     --purple-btn-hover: #5028C6;
+
+    --orange: #D84910;
 
     --error: var(--red);
     --success: var(--blue);

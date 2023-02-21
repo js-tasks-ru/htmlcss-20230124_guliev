@@ -11,3 +11,8 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.preview__grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
