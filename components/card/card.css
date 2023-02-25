@@ -23,6 +23,11 @@
     margin-bottom: 12px;
 }
 
+.card__element_vertical_center {
+    padding-top: 45%;
+    box-sizing: border-box;
+}
+
 .card__element_skeleton {
     background:  var(--grey-2);
 }
