@@ -27,7 +27,7 @@
     border-radius: 4px;
 }
 
-.checbox__icon {
+.checkbox__icon {
     display: none;
 }
 
@@ -55,8 +55,7 @@
 
 
 .checkbox__input:disabled~.checkbox__state .checkbox__control {
-    background: var(--grey-2);
-    border-radius: 4px;
+    background: var(--grey-2);    
 }
 
 .checkbox__input:disabled~.checkbox__state .checkbox__title {
