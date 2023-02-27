@@ -24,8 +24,9 @@
 }
 
 .card__element_vertical_center {
-    padding-top: 45%;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card__element_skeleton {
