@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <!-- Страница с кнопкой переключения -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./toggler.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./toggler.css">
+</head>
+
+<body>
+    <label class="toogler">
+        <input type="checkbox" class="toogler__input">
+
+        <div class="toogler__state">
+            <div class="toogler__control">
+                <svg class="toogler__icon" width="24" height="24" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" rx="12" />
+                </svg>
+            </div>
+            <div class="toogler__title">Off</div>
+        </div>
+    </label>
+
+    <label class="toogler">
+        <input type="checkbox" disabled class="toogler__input">
+
+        <div class="toogler__state">
+            <div class="toogler__control">
+                <svg class="toogler__icon" width="24" height="24" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" rx="12" />
+                </svg>
+            </div>
+            <div class="toogler__title">Disabled</div>
+        </div>
+    </label>
+</body>
+
 </html>

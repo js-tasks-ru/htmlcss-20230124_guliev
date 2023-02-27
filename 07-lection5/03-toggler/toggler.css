@@ -1,0 +1,62 @@
+.toogler {
+    display: inline-block;
+    position: relative;
+}
+
+.toogler__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0 0 0 0);
+}
+
+.toogler__state {
+    display: inline-flex;
+    gap: 12px;
+    text-align: center;
+}
+
+.toogler__control {
+    padding: 2px 2px 2px;
+    box-sizing: border-box;
+    min-width: 52px;
+    display: inline-flex;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 16px;
+}
+
+.toogler__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.toogler__icon {
+    fill: var(--grey-2);
+}
+
+.toogler__input:checked~.toogler__state .toogler__control {
+    background-color: var(--blue-btn);
+    border: 1px solid var(--blue-btn);
+    justify-content: end;
+}
+
+.toogler__input:checked~.toogler__state .toogler__icon {
+    fill: var(--white);
+}
+
+.toogler__input:checked~.toogler__state .toogler__title {
+    text-decoration: underline;
+}
+
+
+.toogler__input:disabled ~.toogler__state .toogler__control {
+    background-color: var(--grey-2);
+}
+
+.toogler__input:disabled~.toogler__state .toogler__icon {
+    fill: var(--grey-3);
+}
