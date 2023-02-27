@@ -17,11 +17,12 @@
 
 .radio__control {
     display: inline-flex;
+    padding: 5px 5px 5px;
+    box-sizing: border-box;
     align-items: center;
     justify-content: center;
     width: 24px;
     height: 24px;
-    box-sizing: border-box;
     background: var(--white);
     border: 1px solid var(--grey-2);
     border-radius: 14px;
@@ -41,22 +42,21 @@
 }
 
 .radio__input:checked~.radio__state .radio__control {
-    /* background: var(--blue-btn);
-    border-color: var(--blue-btn); */
+    border: 2px solid var(--blue-btn);
+    fill: var(--blue-btn);
 }
 
-.radio__input:checked~.radio__state .radio__icon {
+.radio__input:checked ~.radio__state .radio__icon {
     display: block;
 }
 
-.radio__input:focus~.radio__state .radio__title {
+.radio__input:focus ~.radio__state .radio__title {
     text-decoration: underline;
 }
 
 
 .radio__input:disabled~.radio__state .radio__control {
     background: var(--grey-2);
-    border-radius: 14px;
 }
 
 .radio__input:disabled~.radio__state .radio__title {
