@@ -1,6 +1,9 @@
 @import '../fonts/fonts.css';
 @import url('./normalize.css');
 @import url('../../components/container/container.css');
+@import url('../../05-lection3/03-calendar/calendar.css');
+@import url('../../04-lection2/01-histogram/histogram.css');
+@import url('../../05-lection3/01-tooltip/tooltip.css');
 @import url('../../components/page/page.css');
 @import url('../../components/header/header.css');
 @import url('../../components/preview/preview.css');
