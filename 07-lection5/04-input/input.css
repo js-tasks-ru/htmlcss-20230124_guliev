@@ -1,37 +1,69 @@
 .input {
-    display: inline-flex;
-    padding: 17px 24px 13px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    border: 1px solid #DDE2E5;
-    border-radius: 8px;
+    display: block;
+    max-width: 350px;
+    cursor: text;
 }
 
-.input__field {
-    border: none;
+.input__legend {
+    margin-bottom: 5px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #ACB5BD;
+}
+
+.input__fake {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input__control {
+    width: 100%;
+    padding: 15px 17px 15px 25px;
+    border: 1px solid #DDE2E5;
+    border-radius: 8px;
+    box-sizing: border-box;
     outline: none;
+
+    font-size: 20px;
+    line-height: 26px;
+
+    text-overflow: ellipsis;
 }
 
 .input__icon {
     display: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 17px;
+    top: 50%;
+    transform: translateY(-40%);
 }
 
-.input_success .input__icon {
+.input__control:focus {
+    border-color: #4263EB;
+}
+
+.input__control_success:not(:focus) {
+    padding-right: 57px;
+}
+
+.input__control_invalid:not(:focus) {
+    padding-right: 57px;
+    border-color: #F03D3E;
+}
+
+.input__control_invalid:not(:focus)~.input__state .input__icon_error {
     display: block;
 }
 
-.input_error .input__icon {
+.input__control_success:not(:focus)~.input__state .input__icon_ok {
     display: block;
 }
-
-.input_error .input {
-    border-color: var(--red);
-}
-
-.input__field:focus .input {
-    border-color: var(--blue-btn);
-}
-
