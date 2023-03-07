@@ -17,7 +17,6 @@
 .input__fake {
     position: relative;
     border-radius: 8px;
-    overflow: hidden;
 }
 
 .input__control {
@@ -37,9 +36,8 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    right: 17px;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-50%);
 }
 
 .input__control:focus {
@@ -47,18 +45,12 @@
 }
 
 .input_invalid .input__control {
-    padding-right: 57px;
     border-color: #F03D3E;
 }
 
 .input_invalid .input__icon_error {
     display: block;
 }
-
-.input_success .input__control {
-    padding-right: 57px;
-}
-
 
 .input_success .input__icon_ok {
     display: block;
