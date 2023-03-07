@@ -11,3 +11,14 @@
     line-height: 64px;
     color: #212429;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 91px 16px 71px;
+    }
+
+
+    .header__title {
+        font-size: 28px;
+    }
+}
