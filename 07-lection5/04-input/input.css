@@ -2,6 +2,8 @@
     display: block;
     max-width: 350px;
     cursor: text;
+    position: relative;
+    border-radius: 8px;
 }
 
 .input__legend {
@@ -12,11 +14,6 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #ACB5BD;
-}
-
-.input__fake {
-    position: relative;
-    border-radius: 8px;
 }
 
 .input__control {
