@@ -1,0 +1,47 @@
+@import '../fonts/fonts.css';
+@import url("./normalize.css");
+@import url("../../components/container/container.css");
+@import url("../../05-lection3/03-calendar/calendar.css");
+@import url("../../04-lection2/01-histogram/histogram.scss");
+@import url("../../05-lection3/01-tooltip/tooltip.css");
+@import url("../../components/page/page.css");
+@import url("../../components/header/header.css");
+@import url("../../components/preview/preview.css");
+@import url("../../components/footer/footer.css");
+@import url("../../components/card/card.scss");
+@import url("../../components/menu/menu.css");
+@import url("../../components/component/component.css");
+@import url("../../04-lection2/01-histogram/histogram.scss");
+@import url("../../06-lection4/01-avatar/avatar.css");
+@import url("../../05-lection3/02-modal/modal.css");
+@import url("../../03-lection1/01-button/button.css");
+:root {
+  --white: #ffffff;
+  --black: #212429;
+  --pink: #F784AD;
+  --purple: #7048E8;
+  --blue: #374FC7;
+  --red: #F03D3E;
+  --grey-1: #F8F9FA;
+  --grey-2: #DDE2E5;
+  --grey-3: #ACB5BD;
+  --grey-4: #495057;
+  --dark-blue: #334D6E;
+  --blue-btn: #4263EB;
+  --blue-grey: #334D6E;
+  --blue-light: #90A0B7;
+  --blue-very-light: #A0B1F5;
+  --blue-btn-hover: #2342C0;
+  --purple-btn-hover: #5028C6;
+  --orange: #D84910;
+  --error: var(--red);
+  --success: var(--blue);
+  --primary: var(--blue);
+  --secondary: var(--purple);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

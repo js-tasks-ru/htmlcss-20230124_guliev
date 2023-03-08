@@ -8,7 +8,7 @@
     left: 0;
     top: 0;
     overflow: auto;
-    background: rgba(196, 196, 196, 1);
+    background: rgba(90, 90, 90, 0.041);
 }
 
 .modal__title {

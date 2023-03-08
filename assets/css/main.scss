@@ -2,16 +2,19 @@
 @import url('./normalize.css');
 @import url('../../components/container/container.css');
 @import url('../../05-lection3/03-calendar/calendar.css');
-@import url('../../04-lection2/01-histogram/histogram.css');
+@import url('../../04-lection2/01-histogram/histogram.scss');
 @import url('../../05-lection3/01-tooltip/tooltip.css');
 @import url('../../components/page/page.css');
 @import url('../../components/header/header.css');
 @import url('../../components/preview/preview.css');
 @import url('../../components/footer/footer.css');
-@import url('../../components/card/card.css');
+@import url('../../components/card/card.scss');
 @import url('../../components/menu/menu.css');
 @import url('../../components/component/component.css');
-@import url('../../04-lection2/01-histogram/histogram.css');
+@import url('../../04-lection2/01-histogram/histogram.scss');
+@import url('../../06-lection4/01-avatar/avatar.css');
+@import url('../../05-lection3/02-modal/modal.css');
+@import url('../../03-lection1/01-button/button.css');
 
 :root {
     --white: #ffffff;
