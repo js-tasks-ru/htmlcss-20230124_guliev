@@ -2,25 +2,18 @@
     display: block;
     max-width: 350px;
     cursor: text;
+    position: relative;
+    border-radius: 8px;
 }
 
 .input__legend {
     margin-bottom: 5px;
-
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-
     letter-spacing: 0.04em;
     text-transform: uppercase;
-
     color: #ACB5BD;
-}
-
-.input__fake {
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 .input__control {
@@ -30,10 +23,8 @@
     border-radius: 8px;
     box-sizing: border-box;
     outline: none;
-
     font-size: 20px;
     line-height: 26px;
-
     text-overflow: ellipsis;
 }
 
@@ -42,7 +33,7 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    right: 17px;
+    right: 16px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -51,19 +42,14 @@
     border-color: #4263EB;
 }
 
-.input__control_success:not(:focus) {
-    padding-right: 57px;
-}
-
-.input__control_invalid:not(:focus) {
-    padding-right: 57px;
+.input_invalid .input__control {
     border-color: #F03D3E;
 }
 
-.input__control_invalid:not(:focus) ~ .input__state .input__icon_error {
+.input_invalid .input__icon_error {
     display: block;
 }
 
-.input__control_success:not(:focus) ~ .input__state .input__icon_ok {
+.input_success .input__icon_ok {
     display: block;
 }
