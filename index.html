@@ -3,7 +3,7 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./dist/styles.css">
 </head>
 
 <body>
@@ -11,7 +11,8 @@
         <header class="header">
             <div class="container">
                 <h1 class="header__title">
-                    <svg class="header__logo" width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="header__logo" width="110" height="32" viewBox="0 0 110 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_17869_61)">
                             <rect y="1" width="30" height="30" fill="#212429" />
                             <rect x="38" width="32" height="32" rx="16" fill="#212429" />
@@ -120,7 +121,41 @@
                     </div>
                     <div class="card">
                         <div class="card__content">
-                            <div class="card__element card__element_skeleton"></div>
+                            <div class="card__element  card__element_vertical_center">
+                                <button id="modal-open" class="button button_primary">
+                                    Open Modal
+                                </button>
+                                <div>
+                                    <div id="modal" class="modal">
+                                        <div class="modal__block">
+                                            <svg id="modal-close" class="modal__close" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.4714 3.52861C12.7318 3.78896 12.7318 4.21107 12.4714 4.47141L4.47141 12.4714C4.21107 12.7318 3.78896 12.7318 3.52861 12.4714C3.26826 12.2111 3.26826 11.789 3.52861 11.5286L11.5286 3.52861C11.789 3.26826 12.2111 3.26826 12.4714 3.52861Z"
+                                                    fill="#495057" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M3.52861 3.52861C3.78896 3.26826 4.21107 3.26826 4.47141 3.52861L12.4714 11.5286C12.7318 11.789 12.7318 12.2111 12.4714 12.4714C12.2111 12.7318 11.789 12.7318 11.5286 12.4714L3.52861 4.47141C3.26826 4.21107 3.26826 3.78896 3.52861 3.52861Z"
+                                                    fill="#495057" />
+                                            </svg>
+                                            <h4 class="modal__title">Modal title</h4>
+                                            <div class="modal__text">
+                                                <span>
+                                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                                    sint. Velit officia
+                                                    consequat
+                                                    duis
+                                                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                                    sint. Velit officia
+                                                    consequat
+                                                    duis
+                                                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <p class="card__title">Modal dialog</p>
                         </div>
                     </div>
@@ -204,7 +239,13 @@
                     </div>
                     <div class="card">
                         <div class="card__content">
-                            <div class="card__element card__element_skeleton"></div>
+                            <div class="card__element  card__element_vertical_center">
+                                <div class="avatar">
+                                    <img class="avatar__image"
+                                        src="https://sun9-26.userapi.com/impg/x5NfpyqCwc0klKjLLGCYcPM96hQnj09zzi0rng/lZ92WITuEvg.jpg?size=956x1276&quality=96&sign=96319835573fb6d2a7cfd4ccc63c6202&type=album"
+                                        alt="avatar">
+                                </div>
+                            </div>
                             <p class="card__title">Avatar</p>
                         </div>
                     </div>
@@ -226,5 +267,6 @@
         </footer>
     </div>
 </body>
+<script src="./05-lection3/02-modal/index.js"></script>
 
 </html>
